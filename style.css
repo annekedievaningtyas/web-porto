@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: pink;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+}
+
+nav h1 {
+    font-family: 'Pirata One', cursive;
+    font-size: 30px;
+}
+
+#Home h1 {
+        font-family: 'Pirata One', cursive;
+        font-size: 50px;
+}
+
+#Art img {
+    margin-right: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+#Home, #About {
+    padding: 10px 100PX;
+}
+
+#Art, #Contact {
+    padding: 10px 50px;
+}
+
+footer {
+    text-align: center;
+}
